@@ -1,0 +1,25 @@
+#container {
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    background-color:white;
+    align-items:center;
+}
+
+.row {
+    display:flex;
+    width:750px;
+}
+
+.col {
+    width:3%;
+    flex:1;
+    border:1px solid black;
+    
+}
+
+#btn {
+    display:flex;
+    justify-content:center;
+    margin-bottom:50px;
+}
